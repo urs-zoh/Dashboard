@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Dashboard</title>
+</head>
+
+<body>
+	<!-- SIDE NAVIGATION -->
+	<div id="sidenav">
+		<h2 class="logo">Company</h2>
+		<hr>
+		<menu>
+			<a class="btn active" href="./index.html"><img src="./icons/dashboard_white.svg">Dashboard</a>
+			<a class="btn" href="./html/profile.html"><img src="./icons/account_gray.svg" alt=""> User profile</a>
+			<a class="btn" href="#"><img src="./icons/map_gray.svg" alt="">Maps</a>
+			<a class="btn" href="#"><img src="./icons/notify_gray.svg" alt="">Notifications</a>
+			<a class="btn" href="#"><img src="./icons/support_gray.svg" alt="">Support</a>
+		</menu>
+	</div>
+	<!-- MAIN -->
+	<main>
+		<h2 class="logo"><img src="./icons/menu.png">Dashboard</h2>
+		<!-- STATISTICS -->
+		<section class="stats">
+			<div class="card">
+				<div class="card-body">
+					<img src="./icons/data_white.svg">
+					<p class="label">Used Space</p>
+					<p class="info">49/50 GB</p>
+				</div>
+				<hr>
+				<div class="card-footer">
+					<img src="./icons/alert.png">
+					<p>Get more space...</p>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-body">
+					<img src="./icons/shop_white.svg">
+					<p class="label">Revenue</p>
+					<p class="info">&dollar; 34,245</p>
+				</div>
+				<hr>
+				<div class="card-footer">
+					<img src="./icons/calendar.png">
+					<p>Last 24 Hours</p>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-body">
+					<img src="./icons/tag_white.svg">
+					<p class="label">Fixed issues</p>
+					<p class="info">75</p>
+				</div>
+				<hr>
+				<div class="card-footer">
+					<img src="./icons/down.png">
+					<p>Tracked from Github</p>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-body">
+					<img src="./icons/paperplane_white.svg">
+					<p class="label">Followers</p>
+					<p class="info">+ 245</p>
+				</div>
+				<hr>
+				<div class="card-footer">
+					<img src="./icons/time.png">
+					<p>Just updated</p>
+				</div>
+			</div>
+		</section>
+		<!-- COMPAIGNS -->
+		<section class="campaigns">
+			<div class="card">
+				<div class="card-body">
+					<img src="./icons/graphics.svg">
+					<p class="label">Daily sales</p>
+					<p class="info">55% increase in today sales</p>
+				</div>
+				<hr>
+				<div class="card-footer">
+					<img src="./icons/time.png">
+					<p>updated 4 minutes ago</p>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-body">
+					<img src="./icons/graphics.svg">
+					<p class="label">Email Subscriptions</p>
+					<p class="info">Last Campaign Performance</p>
+				</div>
+				<hr>
+				<div class="card-footer">
+					<img src="./icons/time.png">
+					<p>campaign sent 2 days ago</p>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-body">
+					<img src="./icons/graphics.svg">
+					<p class="label">Completed Tasks</p>
+					<p class="info">Last Campaign Perfomance</p>
+				</div>
+				<hr>
+				<div class="card-footer">
+					<img src="./icons/time.png">
+					<p>campaign event 2 days ago</p>
+				</div>
+			</div>
+		</section>
+		<!-- TABLES -->
+		<section class="tables">
+			<div class="table">
+				<div class="table-header tags">
+					<p class="label">Tasks:</p>
+					<menu>
+						<a href="#" class="selected"><img src="./icons/bug.svg">Bugs</a>
+						<a href="#"><img src="./icons/web.svg">Website</a>
+						<a href="#"><img src="./icons/cloud.svg">Server</a>
+					</menu>
+				</div>
+				<div class="table-body">
+					<table>
+						<tbody>
+							<tr>
+								<td><input type="checkbox" checked></td>
+								<td>
+									<p class="info">Sign contract for "What are conference organizers afraid of?"</p>
+								</td>
+								<td><img src="./icons/edit.png"></td>
+								<td><img src="./icons/remove.png"></td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td>
+									<p class="info">Lines From Great Russian Literature? Or E-mails From My Boss?</p>
+								</td>
+								<td><img src="./icons/edit.png"></td>
+								<td><img src="./icons/remove.png"></td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"></td>
+								<td>
+									<p class="info">Sign contract for "What are conference organizers afraidof?"</p>
+								</td>
+								<td><img src="./icons/edit.png"></td>
+								<td><img src="./icons/remove.png"></td>
+							</tr>
+							<tr>
+								<td><input type="checkbox" checked></td>
+								<td>
+									<p class="info">Lines From Great Russian Literature? Or E-mails From My Boss?</p>
+								</td>
+								<td><img src="./icons/edit.png"></td>
+								<td><img src="./icons/remove.png"></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="table">
+				<div class="table-header">
+					<p class="label">Employees Stats</p>
+					<p class="info">New employees on 19th September, 2019</p>
+				</div>
+				<div class="table-body">
+					<table>
+						<thead>
+							<tr>
+								<th>ID</th>
+								<th>Name</th>
+								<th>Salary</th>
+								<th>Country</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>Dakota Rice</td>
+								<td>&dollar;36.738</td>
+								<td>Niger</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>Dakota Rice</td>
+								<td>&dollar;36.738</td>
+								<td>Niger</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>Dakota Rice</td>
+								<td>&dollar;36.738</td>
+								<td>Niger</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>Dakota Rice</td>
+								<td>&dollar;36.738</td>
+								<td>Niger</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<hr>
+			<menu>
+				<a href="#">about</a>
+				<a href="#">blog</a>
+				<a href="#">licens</a>
+				<p>2023 - made with struggle</p>
+			</menu>
+		</footer>
+	</main>
+</body>
+
+</html>
